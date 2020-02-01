@@ -6,7 +6,7 @@
 .header {
     font-weight: bold;
     /* background-color: #673ab7; */
-    background-color: rgba(30, 30, 30, 0.8);
+    background-color: rgba(0, 0, 30, 0.8);
     color: antiquewhite;
     font-size: 30px;
     line-height: normal;
@@ -20,7 +20,7 @@
   }
   
   .small_header {
-    background-color: rgba(30, 30, 30, 0.8);
+    background-color: rgba(0, 0, 30, 0.8);
     padding:10px;
     color: antiquewhite;
     border-radius: 5px;
@@ -39,12 +39,12 @@
   }
 
   .add-button, .submit-button, .election-button, .refresh-button, .verify-button{
-    background: rgba(30, 30, 30, 0.9);
+    background: rgba(0, 0, 30, 0.9);
     font-family:Impact;
   }
 
   .normal-button{
-    background: rgba(30, 30, 30, 0.9);
+    background: rgba(0, 0, 30, 0.9);
     font-family:Impact;
   }
   .app-header {
@@ -69,7 +69,7 @@
 
   .app_heading {
       padding: 10px;
-      background-color:  rgba(30, 30, 30, 0.8);
+      background-color:  rgba(0, 0, 30, 0.8);
       color: white;
       border-radius: 5px;
   }
@@ -87,7 +87,7 @@
   }
 
   .add-button, .submit-button, .election-button, .refresh-button, .verify-button{
-    background: rgba(30, 30, 30, 0.9);
+    background: rgba(0, 0, 30, 0.9);
     font-family:Impact;
   }
 

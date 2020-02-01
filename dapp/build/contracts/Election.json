@@ -13504,10 +13504,16 @@
       "links": {},
       "address": "0x91996b1B98C5a2Af370779eA8dC6385D54C0bC70",
       "transactionHash": "0x499f5ff91e0c30634d3f0b035bf3468349b9c0d191901a14db30bdc8f3461466"
+    },
+    "1580579177418": {
+      "events": {},
+      "links": {},
+      "address": "0xDCcA77676E206dba469E4d8d986a6B24a679b20F",
+      "transactionHash": "0x5e002ace03ac08fc6371ecf5f6f1b03dbdb121e2ceaaaf38e65343530a242b56"
     }
   },
   "schemaVersion": "3.0.11",
-  "updatedAt": "2020-02-01T16:49:10.216Z",
+  "updatedAt": "2020-02-01T17:48:03.518Z",
   "devdoc": {
     "methods": {}
   },

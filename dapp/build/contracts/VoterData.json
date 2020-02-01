@@ -7918,10 +7918,16 @@
       "links": {},
       "address": "0xA278cDbcbBdbDB13B8Adf77C50e0023dd65d28f9",
       "transactionHash": "0x8c7d8c2ead741403d4f1b9d51e35aa52826c210567b351671d8c11c1bddd5ff6"
+    },
+    "1580579177418": {
+      "events": {},
+      "links": {},
+      "address": "0x934a06b00d1FFD82Ad885B006815DA5DE1De2Ac1",
+      "transactionHash": "0xf77afd8798790a5aa3b0cbeabee6561667f51757bdae3b96d8f9a24b30ff5c04"
     }
   },
   "schemaVersion": "3.0.11",
-  "updatedAt": "2020-02-01T16:49:10.224Z",
+  "updatedAt": "2020-02-01T17:48:03.528Z",
   "devdoc": {
     "methods": {}
   },

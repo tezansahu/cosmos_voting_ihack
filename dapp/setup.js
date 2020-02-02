@@ -26,8 +26,8 @@ async function setupElection() {
     await getContracts();
     accounts = await web3.eth.getAccounts();
     console.log(accounts);
-    var parties = ["BJP", "Congress", "BSP"];
-    var constituencies = ["mumbai"];
+    var parties = ["BJP", "NCP", "INC"];
+    var constituencies = ["Thane"];
     console.log(election);
     var tx_hash = await election.methods.addElectionDetails(constituencies, parties).send({
       from:accounts[0],gas:600000 

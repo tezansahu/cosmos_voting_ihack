@@ -14,7 +14,7 @@ import {
 } from "@angular/animations";
 // import { type } from 'os';
 
-const PARTIES = ["BJP", "Congress", "BSP"];
+const PARTIES = ["BJP", "NCP", "INC"];
 
 let CONSTITUENCIES;
 const RESULT_DATA = [];
@@ -61,9 +61,9 @@ export class VerifyComponent {
   dataSource = RESULT_DATA;
   result_party = [{name:"BJP",
                        votes:10},
-                       {name:"Congress",
+                       {name:"NCP",
                        votes:7},
-                       {name:"BSP",
+                       {name:"INC",
                        votes:5}];
   hashes: string[];
   ElectionInstance: any;
@@ -72,7 +72,7 @@ export class VerifyComponent {
 
   // election result no of votes party wise
   displayedColumns: string[] = ["name", "votes"];
-  election_label = 'test';
+  election_label = 'Mahrashtra State Election';
 
   public doughnutChartLabels = PARTIES;
   public doughnutChartData = [10, 7, 5];
@@ -104,8 +104,8 @@ export class VerifyComponent {
         });
       });
 
-      this.election_label = this.web3Service.getElectionLabel();
-      console.log("Retrieved election label:", this.election_label);
+      // this.election_label = this.web3Service.getElectionLabel();
+      // console.log("Retrieved election label:", this.election_label);
 
     // this.ElectionInstance.
 

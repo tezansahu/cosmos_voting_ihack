@@ -108,10 +108,10 @@ export class VoteComponent {
       async (res: any) => {
         console.log(res);
         this.user = res;
-        let has_voted = await<any> this.check_has_voted();
-        if (has_voted){
-            return;
-        }
+        // let has_voted = await<any> this.check_has_voted();
+        // if (has_voted){
+        //     return;
+        // }
         this.model.constituency = res["constituency"];
 
         if (this.model.constituency != null) {

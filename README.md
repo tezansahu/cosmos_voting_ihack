@@ -1,8 +1,6 @@
-# Cosmos Election Protocol
+# Cosmos Election Platform
 
 ## Ethereum-based Voting Platform for public governance 
-
-***
 
 ### Overview:
 
